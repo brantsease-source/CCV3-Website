@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Coloma Club Bar & Grill — California's Gold Country gathering place since 1986. Hearty food, craft drinks, live music, and genuine hospitality on the American River." />
+  <title>Coloma Club Bar &amp; Grill | California Gold Country</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ────────────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__brand">
+        <img src="brand_assets/Coloma Club Logo - Modern.png" alt="Coloma Club" class="nav__logo" />
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+      <a href="#reserve" class="btn btn--gold nav__cta">Reserve a Table</a>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">&times;</button>
+    <ul>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#location">Location</a></li>
+    </ul>
+    <a href="#reserve" class="btn btn--gold">Reserve a Table</a>
+  </div>
+  <div class="mobile-menu__overlay" id="menuOverlay"></div>
+
+  <!-- ── HERO ─────────────────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. 1986 &nbsp;·&nbsp; California Gold Country</p>
+      <img src="brand_assets/Coloma Club Logo - Modern.png" alt="Coloma Club Bar & Grill" class="hero__logo" />
+      <h1 class="hero__title">Bar &amp; Grill</h1>
+      <p class="hero__tagline">Where History Meets Hospitality</p>
+      <div class="hero__actions">
+        <a href="#menu" class="btn btn--outline-gold">View Menu</a>
+        <a href="#reserve" class="btn btn--gold">Reserve a Table</a>
+      </div>
+    </div>
+    <a href="#story" class="hero__scroll" aria-label="Scroll down">
+      <span class="hero__scroll-bar"></span>
+    </a>
+  </section>
+
+  <!-- ── TICKER ────────────────────────────────────────────────────────────── -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Authentic</span><span class="dot">&#10022;</span>
+      <span>Rustic</span><span class="dot">&#10022;</span>
+      <span>Welcoming</span><span class="dot">&#10022;</span>
+      <span>Adventurous</span><span class="dot">&#10022;</span>
+      <span>Historic</span><span class="dot">&#10022;</span>
+      <span>Est. 1986</span><span class="dot">&#10022;</span>
+      <span>California Gold Country</span><span class="dot">&#10022;</span>
+      <span>American River</span><span class="dot">&#10022;</span>
+      <span>Authentic</span><span class="dot">&#10022;</span>
+      <span>Rustic</span><span class="dot">&#10022;</span>
+      <span>Welcoming</span><span class="dot">&#10022;</span>
+      <span>Adventurous</span><span class="dot">&#10022;</span>
+      <span>Historic</span><span class="dot">&#10022;</span>
+      <span>Est. 1986</span><span class="dot">&#10022;</span>
+      <span>California Gold Country</span><span class="dot">&#10022;</span>
+      <span>American River</span><span class="dot">&#10022;</span>
+    </div>
+  </div>
+
+  <!-- ── OUR STORY ──────────────────────────────────────────────────────────── -->
+  <section class="section section--cream" id="story">
+    <div class="container">
+      <div class="story__grid">
+        <div class="story__text reveal">
+          <span class="label">Our Story</span>
+          <h2>A Gold Country Institution Since 1986</h2>
+          <p>Nestled in the heart of California's legendary Gold Country, the Coloma Club Bar &amp; Grill has been a gathering place for locals and adventurers alike for four decades.</p>
+          <p>Situated near historic Coloma — where James Marshall's discovery sparked the Gold Rush of 1848 — we've built our own legacy of warm hospitality, honest food, and genuine good times on the banks of the American River.</p>
+          <p>Whether you're fresh off the river after a day of whitewater adventure, exploring the gold fields, or simply looking for a great meal and a cold drink in good company — you'll always find a seat at the Coloma Club.</p>
+          <a href="#menu" class="btn btn--brown">Explore Our Menu</a>
+        </div>
+        <div class="story__stats reveal reveal--delay">
+          <div class="stat">
+            <div class="stat__num" data-target="39">0</div>
+            <div class="stat__plus">+</div>
+            <div class="stat__label">Years Serving Gold Country</div>
+          </div>
+          <div class="stat stat--accent">
+            <div class="stat__num" data-target="1848">0</div>
+            <div class="stat__label">Year Gold Was Discovered in Coloma</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num" data-target="100">0</div>
+            <div class="stat__plus">%</div>
+            <div class="stat__label">Authentic Gold Country Experience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MENU HIGHLIGHTS ───────────────────────────────────────────────────── -->
+  <section class="section section--dark" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label label--gold">From Our Kitchen</span>
+        <h2 class="light">Menu Highlights</h2>
+        <p class="section-sub light">Hearty, honest food made with care — the kind of meal you'll come back for.</p>
+      </div>
+      <div class="menu-tabs reveal">
+        <button class="tab active" data-tab="starters">Starters</button>
+        <button class="tab" data-tab="mains">Mains</button>
+        <button class="tab" data-tab="drinks">Drinks</button>
+      </div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <div class="section-footer reveal">
+        <a href="#" class="btn btn--outline-gold">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── THE EXPERIENCE ────────────────────────────────────────────────────── -->
+  <section class="section section--parchment" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">The Experience</span>
+        <h2>More Than a Meal</h2>
+        <p class="section-sub">A full Gold Country experience, right at your table.</p>
+      </div>
+      <div class="experience-grid">
+        <div class="exp-card reveal">
+          <div class="exp-card__icon">&#127866;</div>
+          <h3>Craft Bar</h3>
+          <p>A rotating tap of local and regional craft beers, Gold Country wines, and handcrafted cocktails — including our signature Miner's Mule.</p>
+        </div>
+        <div class="exp-card reveal reveal--delay-1">
+          <div class="exp-card__icon">&#127928;</div>
+          <h3>Live Music</h3>
+          <p>Friday and Saturday nights come alive with local artists. Acoustic folk to classic rock — no cover, just great music and the best crowd in the foothills.</p>
+        </div>
+        <div class="exp-card reveal reveal--delay-2">
+          <div class="exp-card__icon">&#127795;</div>
+          <h3>Gold Country Views</h3>
+          <p>Surrounded by the Sierra Nevada foothills, our patio offers some of the most scenic outdoor dining in all of California's Gold Country.</p>
+        </div>
+        <div class="exp-card reveal reveal--delay-3">
+          <div class="exp-card__icon">&#129309;</div>
+          <h3>Family Welcome</h3>
+          <p>Families have made the Coloma Club their go-to for celebrations big and small since 1986. We're proud to be part of your story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EVENTS ────────────────────────────────────────────────────────────── -->
+  <section class="section section--white" id="events">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">What's On</span>
+        <h2>Weekly Events</h2>
+      </div>
+      <div class="events-grid">
+        <div class="event-card reveal">
+          <div class="event-card__when">
+            <span class="event-card__day">Mon – Fri</span>
+            <span class="event-card__time">3 – 6 PM</span>
+          </div>
+          <div class="event-card__body">
+            <h3>Happy Hour</h3>
+            <p>$2 off all drafts, half-price appetizers, and well drink specials. The perfect end to the work day.</p>
+          </div>
+        </div>
+        <div class="event-card reveal reveal--delay-1">
+          <div class="event-card__when">
+            <span class="event-card__day">Wednesday</span>
+            <span class="event-card__time">7 PM</span>
+          </div>
+          <div class="event-card__body">
+            <h3>Trivia Night</h3>
+            <p>Test your knowledge of Gold Country history and more. Prizes for the top three teams every week.</p>
+          </div>
+        </div>
+        <div class="event-card event-card--featured reveal reveal--delay-2">
+          <div class="event-card__when">
+            <span class="event-card__day">Fri &amp; Sat</span>
+            <span class="event-card__time">8 PM</span>
+          </div>
+          <div class="event-card__body">
+            <h3>Live Music</h3>
+            <p>Rotating local artists every week. No cover — just great music, cold drinks, and the best crowd in Gold Country.</p>
+          </div>
+        </div>
+        <div class="event-card reveal reveal--delay-3">
+          <div class="event-card__when">
+            <span class="event-card__day">Sunday</span>
+            <span class="event-card__time">10 AM – 2 PM</span>
+          </div>
+          <div class="event-card__body">
+            <h3>Sunday Brunch</h3>
+            <p>Gold Country favorites and bottomless mimosas. The best way to start a Sunday in the foothills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESERVE CTA BAND ──────────────────────────────────────────────────── -->
+  <section class="cta-band" id="reserve">
+    <div class="container">
+      <div class="cta-band__inner reveal">
+        <div class="cta-band__text">
+          <h2>Ready to Visit?</h2>
+          <p>Reserve your table and let us take care of the rest.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a href="tel:+15305551234" class="btn btn--outline-dark">Call Us</a>
+          <a href="#" class="btn btn--dark">Reserve Online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOCATION & HOURS ──────────────────────────────────────────────────── -->
+  <section class="section section--parchment" id="location">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Find Us</span>
+        <h2>Location &amp; Hours</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-map reveal">
+          <div class="map-placeholder">
+            <div class="map-placeholder__pin">&#128205;</div>
+            <p class="map-placeholder__name">Coloma, CA</p>
+            <p class="map-placeholder__sub">El Dorado County &middot; Gold Country</p>
+            <a href="https://www.google.com/maps/search/Coloma+CA" target="_blank" rel="noopener" class="btn btn--brown btn--sm">Get Directions</a>
+          </div>
+        </div>
+        <div class="location-info reveal reveal--delay">
+          <div class="info-block">
+            <h4>Address</h4>
+            <p>6921 State Highway 49<br />Coloma, CA 95613</p>
+          </div>
+          <div class="info-block">
+            <h4>Hours</h4>
+            <table class="hours-table">
+              <tr><td>Monday – Thursday</td><td>11 AM – 10 PM</td></tr>
+              <tr><td>Friday – Saturday</td><td>11 AM – Midnight</td></tr>
+              <tr><td>Sunday</td><td>10 AM – 9 PM</td></tr>
+            </table>
+          </div>
+          <div class="info-block">
+            <h4>Contact</h4>
+            <p><a href="tel:+15305551234">(530) 555-1234</a></p>
+            <p><a href="mailto:hello@colomaclub.com">hello@colomaclub.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="brand_assets/Coloma Club Logo - Modern.png" alt="Coloma Club" class="footer__logo" />
+          <p>Serving California Gold Country<br />with pride since 1986.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#reserve">Reserve</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Hours</h5>
+          <p>Mon–Thu &nbsp;11 AM – 10 PM</p>
+          <p>Fri–Sat &nbsp;&nbsp;11 AM – Midnight</p>
+          <p>Sunday &nbsp;&nbsp;10 AM – 9 PM</p>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <p>6921 State Highway 49<br />Coloma, CA 95613</p>
+          <p><a href="tel:+15305551234">(530) 555-1234</a></p>
+          <p><a href="mailto:hello@colomaclub.com">hello@colomaclub.com</a></p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Yelp" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.07 14.18c-.24.35-.71.44-1.06.2l-2.36-1.62a.76.76 0 0 1-.2-1.06l2.73-3.96 2.95 2.03-2.06 4.41zm7.15-3.14l-2.6 1.47c-.38.21-.86.08-1.07-.3l-2.15-3.8L15.5 9l2.9 2c.35.24.44.72.2 1.07l-.52.97z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> Coloma Club Bar &amp; Grill. All rights reserved.</p>
+        <p>California Gold Country &middot; Est. 1986</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
